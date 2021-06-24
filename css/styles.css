@@ -24,8 +24,18 @@
     color: floralwhite;
 }
 
-.address {
+address {
     font-size: 80%;
     margin: 0px;
     color: #0f0f0f;
+}
+
+/* higher z-index content will be placed above of that with low z-index */
+body{
+    padding: 40px 0px 0px 0px;
+    z-index: 0;
+}
+
+.navbar-dark {
+    background-color: #512DA8;
 }
