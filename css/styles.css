@@ -1,4 +1,3 @@
-
 .row-header {
     margin:0px auto;
     padding: 0px auto;
@@ -6,7 +5,7 @@
 
 .row-content {
     margin: 0px auto;
-    padding: 50px 0 px 50 px 0px;
+    padding: 50px 0px 50px 0px;
     border-bottom: 1px ridge;
     min-height: 400px;
 }
@@ -45,4 +44,34 @@ body{
     border-right: 1px solid #ddd;
     border-bottom: 1px solid #ddd;
     padding: 10px;
+}
+
+.carousel{
+    background: #512DA8;
+}
+
+.carousel-item {
+    background: #512DA8;
+    height: 200px;
+}
+
+.carousel-item img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-height: 200px;
+}
+
+ 
+.carousel-control-prev {
+    height: 200px;
+}
+
+.carousel-control-next {
+    height: 200px;
+} 
+
+.carousel-indicators{
+    color:#0f0f0f;
+    bottom:-200px;
 }
