@@ -75,3 +75,10 @@ body{
     color:#0f0f0f;
     bottom:-200px;
 }
+
+#carouselButton {
+    right:0px;
+    position: absolute;
+    bottom: -200px;
+    z-index: 1;
+}
