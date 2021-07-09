@@ -37,16 +37,23 @@ body {
   border-bottom: 1px solid #ddd;
   padding: 10px; }
 
-.carousel {
-  background: #512DA8; }
-  .carousel .carousel-item {
-    background: #512DA8;
-    height: 200px; }
-    .carousel .carousel-item img {
-      position: absolute;
-      top: 0;
-      left: 0;
-      min-height: 200px; }
+.carousel .carousel-item {
+  background: #512DA8;
+  height: 200px; }
+  .carousel .carousel-item img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-height: 200px; }
+
+.carousel-indicators {
+  bottom: -200px; }
+
+.carousel-control-prev {
+  bottom: -200px; }
+
+.carousel-control-next {
+  bottom: -200px; }
 
 #carouselButton {
   right: 0px;
@@ -54,15 +61,14 @@ body {
   bottom: -200px;
   z-index: 1; }
 
-  .carousel-control-prev {
-    height: 200px;
-}
-
-.carousel-control-next {
-    height: 200px;
-} 
-
-.carousel-indicators{
-  color:#0f0f0f;
-  bottom:-200px;
-}
+.modal {
+  margin: 0px auto;
+  padding: 0px 0px; }
+  .modal .modal-dialog .modal-content .modal-header {
+    background: #512DA8; }
+    .modal .modal-dialog .modal-content .modal-header .modal-title {
+      color: #ddd; }
+    .modal .modal-dialog .modal-content .modal-header button {
+      color: #D1C4E9; }
+  .modal .modal-dialog .modal-content .modal-body {
+    background: #D1C4E9; }
